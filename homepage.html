@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MlxWich — Freshly Made, Fully Yours</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fredoka:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER SECTION INI -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="navbar__inner">
+        <a href="homepage.html" class="navbar__logo" aria-label="MlxWich Home">
+          <img
+            src="./Icon Product/LogoUtama.svg"
+            alt="Logo Utama"
+            class="navbar__logo-img"
+          />
+        </a>
+
+        <ul class="navbar__links">
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="locations.html">Locations</a></li>
+        </ul>
+
+        <div class="navbar__actions">
+          <a href="register.html" class="navbar__register-btn">
+            <span class="register-icon"></span>
+            Register
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ============================================================
+       HERO SECTION
+       ============================================================ -->
+    <section class="hero" aria-label="Hero">
+      <div class="hero__inner">
+        <!-- Left: Copy -->
+        <div class="hero__content">
+          <h1 class="hero__heading">
+            FRESHLY MADE,<br />
+            <span class="highlight">FULLY YOURS.</span>
+          </h1>
+
+          <p class="hero__subtext">
+            Customizable sandwiches with premium ingredients, homemade sauce,
+            and endless possibilities of sandwich taste for you.
+          </p>
+
+          <div class="hero__cta-group">
+            <a href="menu.html" class="btn-primary btn-explore">
+              <span class="btn-arrow">→</span>
+              Explore Menu
+            </a>
+
+            <a href="#promotions" class="btn-secondary">
+              <img
+                src="./Icon Product/present-box-svgrepo-com.svg"
+                alt="gift box"
+                class="btn-icon-gift"
+              />
+              Check Promotions
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__image-wrap">
+          <img
+            src="./Food Product/Main Product.png"
+            alt="MlxWich signature sandwich — freshly made with premium ingredients"
+            class="hero__sandwich-img"
+          />
+        </div>
+      </div>
+
+      <!-- Info Strip -->
+      <div class="hero__info-strip">
+        <div class="hero__info-strip-inner">
+          <!-- About block -->
+          <div class="info-about">
+            <div class="info-icon-wrap">
+              <img
+                src="./Icon Product/leafaboutus 1.svg"
+                alt="daon"
+                class="info-icon-leaf"
+              />
+            </div>
+            <span>
+              <strong class="info-about__label">About MlxWich</strong>
+              <span class="info-about__desc">
+                Established in Jakarta since 2020. Serving fresh customizable
+                sandwiches across Indonesia.
+              </span>
+            </span>
+          </div>
+
+          <!-- Stats -->
+          <div class="info-stats">
+            <div class="info-stat-item">
+              <div class="stat-icon-wrap">
+                <span class="stat-icon icon-shop"></span>
+              </div>
+              <span class="stat-value">3+</span>
+              <span class="stat-label">Locations across Indonesia</span>
+            </div>
+
+            <div class="info-stat-item">
+              <div class="stat-icon-wrap">
+                <span class="stat-icon icon-leaves"></span>
+              </div>
+              <span class="stat-value">100%</span>
+              <span class="stat-label">Fresh ingredients daily</span>
+            </div>
+
+            <div class="info-stat-item">
+              <div class="stat-icon-wrap">
+                <span class="stat-icon icon-users"></span>
+              </div>
+              <span class="stat-value">5000+</span>
+              <span class="stat-label">Happy customers and counting</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.hero -->
+
+    <!-- ─── Feature Strip ─────────────────────────────────────── -->
+    <div class="hero__features">
+      <div class="hero__features-inner">
+        <div class="feature-item">
+          <div class="feature-icon-wrap">
+            <img
+              src="./Icon Product/vegetables-svgrepo-com.svg"
+              alt="mangkok sayur"
+              class="feature-icon-placeholder"
+            />
+          </div>
+          <p class="feature-title">Fresh Ingredients</p>
+          <p class="feature-desc">
+            We use the freshest vegetables and meats selected daily.
+          </p>
+          <span class="feature-divider"></span>
+        </div>
+
+        <div class="feature-item">
+          <div class="feature-icon-wrap">
+            <img
+              src="./Icon Product/bread-svgrepo-com.svg"
+              alt="roti"
+              id="rotimen"
+            />
+          </div>
+          <p class="feature-title">Artisan Bread</p>
+          <p class="feature-desc">
+            Freshly baked every morning for the best taste and texture.
+          </p>
+          <span class="feature-divider"></span>
+        </div>
+
+        <div class="feature-item">
+          <div class="feature-icon-wrap">
+            <img
+              src="./Icon Product/custom-apps-svgrepo-com.svg"
+              alt="obeng"
+              class="feature-icon-placeholder"
+            />
+          </div>
+          <p class="feature-title">Fully customizable</p>
+          <p class="feature-desc">
+            Build your perfect sandwich your way, just the way you like.
+          </p>
+          <span class="feature-divider"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================================
+       BEST SELLER SECTION
+       ============================================================ -->
+    <section class="bestseller" aria-labelledby="bestseller-title">
+      <div class="bestseller__inner">
+        <div class="bestseller__inner">
+          <div class="section-header">
+            <h2 class="section-title" id="bestseller-title">
+              Best Seller
+              <img
+                src="./Icon Product/air_muncrat.png"
+                alt="Icon air muncrat"
+                class="section-leaf"
+              />
+            </h2>
+            <p class="section-subtitle">
+              Our customer favorites that you have to try!
+            </p>
+          </div>
+        </div>
+
+        <div class="cards-grid">
+          <!-- Card 1: Fire Chicken Melt -->
+          <article class="product-card">
+            <div class="product-card__img-wrap">
+              <img
+                src="./Food Product/Fire Chicken Melt.png"
+                alt="Fire Chicken Melt sandwich"
+                class="product-card__img"
+              />
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__name">Fire Chicken Melt</h3>
+              <p class="product-card__desc">
+                Spicy grilled chicken, cheese, lettuce, onion, and chili mayo.
+              </p>
+              <div class="product-card__footer">
+                <span class="product-card__price">Rp 45.000</span>
+                <button
+                  class="btn-cart"
+                  aria-label="Add Fire Chicken Melt to cart"
+                >
+                  <span class="cart-icon"></span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Beef Crunch Deluxe -->
+          <article class="product-card">
+            <div class="product-card__img-wrap">
+              <img
+                src="./Food Product/Beef Crunch Deluxe.png"
+                alt="Beef Crunch Deluxe sandwich"
+                class="product-card__img"
+              />
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__name">Beef Crunch Deluxe</h3>
+              <p class="product-card__desc">
+                Premium smoked beef with crispy onions, fresh vegetables, and
+                BBQ sauce.
+              </p>
+              <div class="product-card__footer">
+                <span class="product-card__price">Rp 52.000</span>
+                <button
+                  class="btn-cart"
+                  aria-label="Add Beef Crunch Deluxe to cart"
+                >
+                  <span class="cart-icon"></span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: Veggie Garden -->
+          <article class="product-card">
+            <div class="product-card__img-wrap">
+              <img
+                src="Food Product/Veggie Garden.png"
+                alt="Veggie Garden sandwich"
+                class="product-card__img"
+              />
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__name">Veggie Garden</h3>
+              <p class="product-card__desc">
+                Organic vegetables with tomatoes, lettuce, cucumber, and herb
+                dressing.
+              </p>
+              <div class="product-card__footer">
+                <span class="product-card__price">Rp 38.000</span>
+                <button class="btn-cart" aria-label="Add Veggie Garden to cart">
+                  <span class="cart-icon"></span>
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+       RECOMMENDED FOR YOU SECTION
+       ============================================================ -->
+    <section class="recommended" aria-labelledby="recommended-title">
+      <div class="recommended__inner">
+        <div class="section-header">
+          <h2 class="section-title" id="recommended-title">
+            Recommended for you
+            <!--
+            ICON PLACEHOLDER:
+            Replace .section-leaf with your small decorative leaf SVG.
+          -->
+            <span class="section-leaf" aria-hidden="true"></span>
+          </h2>
+          <p class="section-subtitle">Handpicked sandwiches just for you!</p>
+        </div>
+
+        <div class="cards-grid">
+          <!-- Card 4: Honey Mustard Chicken -->
+          <article class="product-card">
+            <div class="product-card__img-wrap">
+              <img
+                src="Food Product/Honey Mustard Chicken.png"
+                alt="Honey Mustard Chicken sandwich"
+                class="product-card__img"
+              />
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__name">Honey Mustard Chicken</h3>
+              <p class="product-card__desc">
+                Grilled chicken with honey mustard sauce, fresh lettuce, and
+                tomatoes.
+              </p>
+              <div class="product-card__footer">
+                <span class="product-card__price">Rp 46.000</span>
+                <button
+                  class="btn-cart"
+                  aria-label="Add Honey Mustard Chicken to cart"
+                >
+                  <span class="cart-icon"></span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 5: Turkey Avocado -->
+          <article class="product-card">
+            <div class="product-card__img-wrap">
+              <img
+                src="./Food Product/Turkey Avocado.png"
+                alt="Turkey Avocado sandwich"
+                class="product-card__img"
+              />
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__name">Turkey Avocado</h3>
+              <p class="product-card__desc">
+                Turkey slices with avocado, fresh lettuce, and ranch sauce.
+              </p>
+              <div class="product-card__footer">
+                <span class="product-card__price">Rp 48.000</span>
+                <button
+                  class="btn-cart"
+                  aria-label="Add Turkey Avocado to cart"
+                >
+                  <span class="cart-icon"></span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 6: Spicy Tuna -->
+          <article class="product-card">
+            <div class="product-card__img-wrap">
+              <img
+                src="./Food Product/Spicy Tuna.png"
+                alt="Spicy Tuna sandwich"
+                class="product-card__img"
+              />
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__name">Spicy Tuna</h3>
+              <p class="product-card__desc">
+                Tuna with spicy mayo, fresh vegetables, and cucumber.
+              </p>
+              <div class="product-card__footer">
+                <span class="product-card__price">Rp 42.000</span>
+                <button class="btn-cart" aria-label="Add Spicy Tuna to cart">
+                  <span class="cart-icon"></span>
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!-- /.cards-grid -->
+      </div>
+    </section>
+    <!-- /.recommended -->
+
+    <!-- ============================================================
+    FOOTER
+    ============================================================ -->
+    <footer class="footer" role="contentinfo">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="homepage.html">
+            <img
+              src="./Icon Product/LogoFooter.png"
+              alt="MlxWich Logo"
+              class="footer__logo-img"
+            />
+          </a>
+          <p class="footer__copy">@2020 Powered by MlxWich</p>
+        </div>
+
+        <div class="footer__col">
+          <p class="footer__col-title">QUICK LINKS</p>
+          <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="locations.html">Locations</a></li>
+            <li><a href="register.html">Register</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <p class="footer__col-title">INFORMATIONS</p>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="terms.html">T &amp; C</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__hotline-wrap">
+          <img
+            src="./Icon Product/HotLine.png"
+            alt="Hotline"
+            class="footer__hotline-img"
+          />
+        </div>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
