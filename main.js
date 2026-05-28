@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const navLinks = document.querySelectorAll(".navbar__links a");
-  const currentPage =
-    window.location.pathname.split("/").pop() || "homepage.html";
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
 
   navLinks.forEach(function (link) {
     if (link.getAttribute("href") === currentPage) {
