@@ -788,21 +788,12 @@ ul {
   gap: 10px;
 }
 
-.footer__col ul li a {
-  font-family: var(--font-subheading);
-  font-size: 13px;
-  color: #ffffff;
-  transition: color 0.2s;
-}
-
-.footer__col ul li a:hover {
-  color: var(--color-accent-yellow);
-}
 .footer-disabled-link {
   font-family: var(--font-subheading);
   font-size: 13px;
   color: rgba(255, 255, 255, 0.5);
   cursor: default;
+  transition: color 0.2s;
 }
 .footer__hotline-wrap {
   display: flex;
