@@ -1354,22 +1354,57 @@ ul {
     max-width: 340px;
   }
 
-  .cards-grid {
+  .hero__info-strip-inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px; /* Memberikan jarak napas antara blok About dan Stats */
+  }
+  .info-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+  }
+  .info-about > span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  .hero__features {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Tengahkan kontennya */
+    padding: 32px 20px;
+    gap: 32px; /* Beri jarak antar elemen */
+  }
+  .hero__features-inner {
     grid-template-columns: 1fr;
+    padding: 24px 20px;
   }
 
-  .footer__inner {
-    grid-template-columns: 1fr;
-    gap: 28px;
+  .feature-item {
+    border-right: none;
+    border-bottom: 1px solid var(--color-card-border);
+    padding: 24px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .feature-item:last-child {
+    border-bottom: none;
   }
 
   .info-stats {
-    gap: 16px;
-  }
-
-  .hero__info-strip-inner {
+    display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
   }
   .menu-page-title {
     font-size: 28px;
@@ -1385,6 +1420,14 @@ ul {
     max-width: none;
   }
 
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__inner {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
   .deco-stamp {
     display: none;
   }
